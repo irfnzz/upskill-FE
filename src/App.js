@@ -1,9 +1,11 @@
+import Layout from './components/layout'
+
 function App() {
   return (
     <div className="w-screen h-screen bg-cyan-300">
-      <div className="flex items-center justify-center h-screen">
-        <p className="font-serif text-5xl tracking-wide">HI! 👋🏻</p>
-      </div>
+      <Layout>
+        <div>this is children</div>
+      </Layout>
     </div>
   )
 }
